@@ -11,7 +11,7 @@ const Home: React.FC = () => {
         }}
       />
       <div
-        className="absolute inset-0 bg-fuchsia-50/10 before:left-0 before:w-full before:h-full before:z-0 bg-gradient-main"
+        className="fixed inset-0 before:left-0 before:w-full before:h-full before:z-0 bg-gradient-main"
         style={{
           WebkitMask:
             'radial-gradient(circle at 0% 20%, black 0%, transparent 60%)',
